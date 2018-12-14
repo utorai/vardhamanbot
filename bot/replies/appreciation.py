@@ -1,3 +1,15 @@
+import random
+
 async def reply(activity, bot, data):
-    await bot.send_text_activity(activity, "Aww! Thanks so much.")
-    await bot.send_text_activity(activity, "But, really all this appreciation goes to my creators.")
+    responses = [
+        "Aww! Thank you so much.", 
+        "But, really all this appreciation goes to my creators."
+        "I'm touched",
+        "Thanks a million!",
+        "Thanks a bunch!",
+        "That’s very kind of you. Thank you.",
+        "I appreciate your feedback",
+        "Thanks"
+    ]
+    response = random.choice(responses)
+    await bot.send_text_activity(activity, response)

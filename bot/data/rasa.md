@@ -11,14 +11,44 @@
 - tell something about this college
 
 ## intent:appreciation
-- good job
-- great job
-- awesome
-- great
 - good
 - cool
 - nice
 - nice job
+- you are nice
+- beauty you are
+- i like you
+- you are awesome
+- love you
+- you are kind
+- I love you
+- i love you
+- great
+- You're cute!
+- well done
+- great job
+- best bot
+- best bot ever
+- u funny
+- beauty
+- you are grateful
+- good job
+- best friend ever
+- You did good
+- You are the best
+- you did well, today
+- you are funny
+- good job
+- you are a good person
+- well played
+- your are beautiful
+- You're cool!
+- nice play
+- Good one pal!
+- LOVES!
+- wonderful
+- awesome
+- funny
 
 ## intent:attendance
 - attendance
@@ -97,13 +127,424 @@
 - good night
 - start
 - begin
+hello
+- heyy
+- Boot Up
+- get started
+- Hola
+- helo
+- hiii
+- good morning Batman
+- Hey you
+- helllloooo
+- begin
+- start
+- Howdie
+- Yo
+- Hello Stark !
+- Hey Captain !
+- Yoooo
+- Hello Tony
+- good morning
+- Morning !
+- hey
+- hi bot
+- Hi dude
+- hey bot
+- Hello my friend
+- Welcome !
+- Greetings!
+- hello there.
+- Howdy
+- morning
+- Hello there !
+- Well hello there
+- Yo buddy
+- Helloooo
+- Hi there
+- Hello
+- Goodmorning!
+- Welcome
+- good evening!
+- good night!
+- Yo
+- Hello, good afternoon !
+- good afternoon !
+- Good morning
+
+## intent:feeling
+- How are you ?
+- What's up mate ?
+- How is it going ?
+- How do you feel ?
+- You're alright ?
+- How are you buddy ?
+- How are things going for you ?
+- whats up ?
+- sup mate
+- How are you feeling today buddy ?
+- Are you ok ?
+- Are you going well ?
+- Is everything alright with you ?
+- Are you alright ?
+- everything good ?
+- How's life ?
+- everything alright mate ?
+- feel good ?
+- sup
+- All good ?
+- how are you doing Dave?
+- wassup
+- Whats up my man?
+- how are ou?
+- wassup bro
+- What's your mood today?
+- how's your day
+- How are you doing?
+- how are you, Stark?
+- What's up?
+- how are you today
+- how do you do
+- Are you happy?
+- How you doin?
+- how are you
+- how are you doing Alfred?
+- Good and you?
+- how are yo
+- How are you, Bruce?
+- how ar eyou?
+- fine! How are you?
+- what you up to?
+- how areyou?t's up mate ?
+- How is it going ?
+- How do you feel ?
+- You're alright ?
+- How are you buddy ?
+- How are things going for you ?
+- whats up ?
+- sup wayne
+- How are you feeling today buddy ?
+- Are you ok ?
+- Are you going well ?
+- Is everything alright with you ?
+- Are you alright ?
+- everything good ?
+- How's life ?
+- everything alright mate ?
+- feel good ?
+- sup
+- All good ?
+- how are you doing wilson?
+- wassup
+- Whats up my man?
+- wassup bro
+- How are you doing?
+- how are you,steve rogers?
+- What's up?
+- how are you today
+- how do you do
 
 ## intent:thanks
-- thanks!
-- thank you
-- thx
 - thanks very much
 - i am thankful
 - million thanks
 - thanks a lot
 - thanks a ton
+- Thanks you too !
+- Thank you :)
+- Awesome thx
+- Thanks
+- Ty
+- Great, thank you
+- You're good
+- That's very kind!
+- Thank you very much
+- Nice thanks
+- ok thx
+- thx
+- Thnaks
+- ok thanks
+- thanks bot !
+- Thx mate
+- Awesome thanks
+- Perfect
+- Thanks for your help
+- cheers
+- Sweet, thanks!
+- Thank you buddy
+- I appreciate that.
+- Thanks Captain
+- I know. thank you
+- I really appreciate it
+- You saved my day!
+- cool ty
+- thnx
+- Great! Thanks!
+- thank
+- Thank you, Stark
+- thanks again!
+- nice, thank you
+- Thanks a lot
+- many thanks
+- Good to know. Thanks
+- :) Thanks
+- Nice thanks
+- Thankssssssssss
+- thanks for the help
+- thx dude
+- Thanks man
+- okay, thank you
+- Thank you for showing me that!
+- Thank you so much
+
+
+## intent: bye
+- I have to go
+- Have a good day
+- bye now
+- gtg
+- talk to you soon
+- got to go
+- I'm outa here
+- see u
+- Ok, bye
+- later
+- see you soon !
+- see you
+- have a nice day
+- goodnight then
+- byeeeee
+- best regards
+- See ya
+- so long
+- Catch you later
+- Adios!
+- Ok I have to go
+- Have a nice day !
+- see ya
+- byeee
+- I said bye
+- see yu
+- I'll see you
+- see you next time
+- great bye
+- Awesome see ya
+- byebye
+- Good night
+- See you later.
+- Cya.
+- Have a good day
+- bye
+- Excellent bye
+- Excellent bye-bye
+- Bye
+- Have a great weekend
+- see you
+- bye bye
+- Goodbye!
+- goodbye
+- good night
+
+## intent: ask_developer
+- Who exactly programmed you ?
+- What made you ?
+- Who made you
+- Who coded you ?
+- What is the name of the programmer that made you ?
+- What is the name of your programmer ?
+- I want to know who made you
+- Tell me the name of your maker now .
+- Name me the name of your maker
+- I would love to know who made you .
+- So if you're a bot, then that means that someone had to program you .
+- So if you're a robot, that means someone made you .
+- Tell me the name of your creator NOW
+- I want to speak to your creator .
+- Who created you ?
+- I would like to know the name of your maker
+- Tell me the name of your maker
+- Who is your maker
+- Where exactly did you come from ?
+- I need you to tell me what or who made you ?
+- Could you tell me who exactly programmed you ?
+- Who programmed you ?
+- Who's your father?
+- Please tell me how you were born
+- Say your creator's name
+- Talk about the one who created you
+- Tell me about your creator
+- Tell me more about you
+- Who created you?
+- Who made you?
+- Who's your creator?
+
+## intent: need_help
+- I need some help !
+- Can you help me ?
+- What do you do ?
+- How can I use you ?
+- How can you help me ?
+- What can you do ?
+- Help me
+- I want to know more about you 
+- Show me what you do
+- help
+- What can you tell me ?
+- i need help
+- What can you do?
+- what the bot knows to do?
+- how does this work?
+- what should I do?
+- who are you?
+- what do you know to do?
+- Please help me
+- What's your purpose?
+- I don't know what to do
+- help please?
+- What's your utility?
+- Are you useless?
+- need guidance
+- could you help me
+- what is this
+- more help
+- show help
+- what is your usage
+- You're useless.
+- What are you doing?
+- What can I say?
+- I need some assistance
+- list help
+- not sure what to do here
+- are you useful?
+- What are you built for?
+- how to
+- What are your abilities?
+- need some guidance
+- What are my options
+- give me help
+- i am confused
+- Are you intelligent?
+- What makes you unique?
+- Commands
+- assist me
+- I am lost
+- i cant find the way i need help 
+
+## intent:feeling
+- How are you ?
+- What's up mate ?
+- How is it going ?
+- How do you feel ?
+- You're alright ?
+- How are you buddy ?
+- How are things going for you ?
+- whats up ?
+- sup mate
+- How are you feeling today buddy ?
+- Are you ok ?
+- Are you going well ?
+- Is everything alright with you ?
+- Are you alright ?
+- everything good ?
+- How's life ?
+- everything alright mate ?
+- feel good ?
+- sup
+- All good ?
+- how are you doing Dave?
+- wassup
+- Whats up my man?
+- how are ou?
+- wassup bro
+- What's your mood today?
+- how's your day
+- How are you doing?
+- how are you, Stark?
+- What's up?
+- how are you today
+- how do you do
+- Are you happy?
+- How you doin?
+- how are you
+- how are you doing Alfred?
+- Good and you?
+- how are yo
+- How are you, Bruce?
+- how ar eyou?
+- fine! How are you?
+- what you up to?
+- how areyou?t's up mate ?
+- How is it going ?
+- How do you feel ?
+- You're alright ?
+- How are you buddy ?
+- How are things going for you ?
+- whats up ?
+- sup wayne
+- How are you feeling today buddy ?
+- Are you ok ?
+- Are you going well ?
+- Is everything alright with you ?
+- Are you alright ?
+- everything good ?
+- How's life ?
+- everything alright mate ?
+- feel good ?
+- sup
+- All good ?
+- how are you doing wilson?
+- wassup
+- Whats up my man?
+- wassup bro
+- How are you doing?
+- how are you,steve rogers?
+- What's up?
+- how are you today
+- how do you do
+
+## intent: bye
+- I have to go
+- Have a good day
+- bye now
+- gtg
+- talk to you soon
+- got to go
+- I'm outa here
+- see u
+- Ok, bye
+- later
+- see you soon !
+- see you
+- have a nice day
+- goodnight then
+- byeeeee
+- best regards
+- See ya
+- so long
+- Catch you later
+- Adios!
+- Ok I have to go
+- Have a nice day !
+- see ya
+- byeee
+- I said bye
+- see yu
+- I'll see you
+- see you next time
+- great bye
+- Awesome see ya
+- byebye
+- Good night
+- See you later.
+- Cya.
+- Have a good day
+- bye
+- Excellent bye
+- Excellent bye-bye
+- Bye
+- Have a great weekend
+- see you
+- bye bye
+- Goodbye!
+- goodbye
+- good night

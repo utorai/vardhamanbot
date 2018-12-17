@@ -17,12 +17,9 @@
 - nice job
 - you are nice
 - beauty you are
-- i like you
 - you are awesome
 - love you
 - you are kind
-- I love you
-- i love you
 - great
 - You're cute!
 - well done
@@ -31,6 +28,8 @@
 - best bot ever
 - u funny
 - beauty
+- you are so cool
+- you are cool
 - you are grateful
 - good job
 - best friend ever
@@ -54,14 +53,23 @@
 - attendance
 - i wanna know my attendance
 - i want to know my attendance
+- whats my attendance?
 - i would like to know my attendance
+- attendance please
 - show me my attendance
 - what's my attendance
-- what is my attendance
+- what is my attendance?
 - tell my attendance
 - tell me my attendance
+- whats my attendance dude?
+- what's my attendance bot
+- whats my attendance buddy?
   
-## intent:authenticate
+## regex:authenticate
+- [0-9,A-Z]{10} #[A-Z,0-9]{4}
+
+
+## intent:authenticate 
 - 14881a05a2 #bhyg
 - 14881a05b7 #zhy2
 - 14881a345b #4yz3
@@ -77,6 +85,17 @@
 - 17662b047y #az57
 - 17881a05b3 #y1hz
 - 18881a0560 #zm23
+
+## intent:auth_error
+- 14881A1260
+- 14881A0587
+- 12881A0548
+- 11881A1346
+- 14881A0164s
+- 13881A0468+
+- 15884A25456
+## regex: auth_error
+- [0-9,A-Z]{10}[^\s]*
 
 ## intent:closingrank
 - i wanna know the closing rank of [civil](department)
@@ -127,7 +146,7 @@
 - good night
 - start
 - begin
-hello
+- hello
 - heyy
 - Boot Up
 - get started
@@ -180,8 +199,6 @@ hello
 - You're alright ?
 - How are you buddy ?
 - How are things going for you ?
-- whats up ?
-- sup mate
 - How are you feeling today buddy ?
 - Are you ok ?
 - Are you going well ?
@@ -191,18 +208,14 @@ hello
 - How's life ?
 - everything alright mate ?
 - feel good ?
-- sup
+- hows life fella
 - All good ?
 - how are you doing Dave?
-- wassup
-- Whats up my man?
 - how are ou?
-- wassup bro
 - What's your mood today?
 - how's your day
 - How are you doing?
 - how are you, Stark?
-- What's up?
 - how are you today
 - how do you do
 - Are you happy?
@@ -212,17 +225,11 @@ hello
 - Good and you?
 - how are yo
 - How are you, Bruce?
-- how ar eyou?
-- fine! How are you?
-- what you up to?
-- how areyou?t's up mate ?
 - How is it going ?
 - How do you feel ?
 - You're alright ?
 - How are you buddy ?
 - How are things going for you ?
-- whats up ?
-- sup wayne
 - How are you feeling today buddy ?
 - Are you ok ?
 - Are you going well ?
@@ -232,15 +239,10 @@ hello
 - How's life ?
 - everything alright mate ?
 - feel good ?
-- sup
 - All good ?
 - how are you doing wilson?
-- wassup
-- Whats up my man?
-- wassup bro
 - How are you doing?
 - how are you,steve rogers?
-- What's up?
 - how are you today
 - how do you do
 
@@ -389,23 +391,17 @@ hello
 - I want to know more about you 
 - Show me what you do
 - help
-- What can you tell me ?
 - i need help
 - What can you do?
-- what the bot knows to do?
 - how does this work?
 - what should I do?
-- who are you?
-- what do you know to do?
 - Please help me
 - What's your purpose?
 - I don't know what to do
-- help please?
-- What's your utility?
+- help please!
 - Are you useless?
 - need guidance
 - could you help me
-- what is this
 - more help
 - show help
 - what is your usage
@@ -423,8 +419,6 @@ hello
 - What are my options
 - give me help
 - i am confused
-- Are you intelligent?
-- What makes you unique?
 - Commands
 - assist me
 - I am lost
@@ -432,14 +426,11 @@ hello
 
 ## intent:feeling
 - How are you ?
-- What's up mate ?
 - How is it going ?
 - How do you feel ?
 - You're alright ?
 - How are you buddy ?
 - How are things going for you ?
-- whats up ?
-- sup mate
 - How are you feeling today buddy ?
 - Are you ok ?
 - Are you going well ?
@@ -449,18 +440,13 @@ hello
 - How's life ?
 - everything alright mate ?
 - feel good ?
-- sup
 - All good ?
 - how are you doing Dave?
-- wassup
-- Whats up my man?
 - how are ou?
-- wassup bro
 - What's your mood today?
 - how's your day
 - How are you doing?
 - how are you, Stark?
-- What's up?
 - how are you today
 - how do you do
 - Are you happy?
@@ -472,15 +458,12 @@ hello
 - How are you, Bruce?
 - how ar eyou?
 - fine! How are you?
-- what you up to?
 - how areyou?t's up mate ?
 - How is it going ?
 - How do you feel ?
 - You're alright ?
 - How are you buddy ?
 - How are things going for you ?
-- whats up ?
-- sup wayne
 - How are you feeling today buddy ?
 - Are you ok ?
 - Are you going well ?
@@ -490,15 +473,10 @@ hello
 - How's life ?
 - everything alright mate ?
 - feel good ?
-- sup
 - All good ?
 - how are you doing wilson?
-- wassup
-- Whats up my man?
-- wassup bro
 - How are you doing?
 - how are you,steve rogers?
-- What's up?
 - how are you today
 - how do you do
 
@@ -548,3 +526,98 @@ hello
 - Goodbye!
 - goodbye
 - good night
+
+## intent: whats_up
+- what's up
+- what are you doing?
+- whatsup
+- what's going on?
+- wassup
+- what are u doing
+- Whats up my man?
+- wassup bro
+- whatsup my man
+- What's up?
+- whatsup mate
+- whatsup bot
+- sup bot?
+- sup?
+- what'sup
+
+## intent: love
+- I love you
+- i love you
+- love you
+- i think i love you
+- i am in love with you
+- i like you
+- i kinda love you
+- i kinda like you
+- hey listen i love you
+- i love you for this
+- i kinda love you for this
+
+## intent: contribute
+- i want to contribute to the bot
+- i want to contribute
+- can i contribute to the bot?
+- can i contribute
+- i wanna contribute
+- can i contribute to your code?
+- i wanna contribute, can i?
+- hey can i contribute?
+
+
+## intent: repository
+- i wanna see your code
+- can i see your code?
+- i want to have a look at your code
+- can i have a look at your code?
+- where is your code?
+- i wanna have a look at your github repo
+- i want to see your github repository
+- can i check your code?
+- i want to check your code
+
+## intent: feeling_reply
+- i am fine 
+- i am fine too
+- i am good
+- i am great
+- fine
+- i am doing fine
+- i am doing good
+- i am ok
+- i am okay
+- i'm good
+- gud
+- i am gud
+- i am also fine
+- i am also happy
+- i am happy
+
+##intent: feeling_negreply
+- i am not well
+- i am not fine
+- i am not doing good
+- i am not doing well
+- i am suffering
+- not fine
+- not well
+- not good
+
+## intent: whoareyou
+- who are you
+- may i know who are you
+- i don't know who you are
+- what are you?
+- who are you?
+- who r u?
+
+## synonym: are
+- r
+- R
+
+## synonym: you
+-u
+-U

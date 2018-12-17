@@ -3,7 +3,7 @@ import random
 async def reply(activity, bot, data):
     responses = [
         "Aww! Thank you so much.", 
-        "But, really all this appreciation goes to my creators."
+        "But, really all this appreciation goes to my creators.",
         "I'm touched",
         "Thanks a million!",
         "Thanks a bunch!",

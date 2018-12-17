@@ -1,3 +1,4 @@
+import random
 from tools.scraper import Scraper
 from tinydb import TinyDB, Query
 
@@ -17,11 +18,19 @@ async def reply(activity, bot, data):
         if attendance > 95:
             reply = "What are you? A book worm? 😏"
         elif attendance > 85: 
-            reply = "Good Going! 😁"
+            responses = [
+                "Good Going! 😁",
+                "Perfectly balanced. As all things should be. 😉"
+            ]
+            reply = random.choice(responses)
         elif attendance > 80:
-            reply = "Making the best of both worlds huh? 😎"
+            reply = "Making the best of both worlds huh? 😎",
         elif attendance > 75: 
-            reply =  "I see you've been bunking a lot of classes lately. 🤨 Be cautious and attend your classes."
+            responses =  [
+                "I see you've been bunking a lot of classes lately. 🤨 Be cautious and attend your classes.",
+                "Phew, Someone likes to live on the edge."
+            ]
+            reply = random.choice(responses)
         elif attendance > 65:
             reply = "You should go to your classes if you don't want to burn a hole in your pocket. 😕"
         else:

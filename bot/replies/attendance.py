@@ -16,7 +16,12 @@ async def reply(activity, bot, data):
         reply  = "Your attendance is " + str(attendance)
         await bot.send_text_activity(activity, reply)
         if attendance > 95:
-            reply = "What are you? A book worm? 😏"
+            responses = [
+                "What are you? A book worm? 😏",
+                "Your mother must be so proud of you.",
+                "You do love your college a bit too much."
+            ]
+            reply = random.choice(responses)
         elif attendance > 85: 
             responses = [
                 "Good Going! 😁",
@@ -32,7 +37,11 @@ async def reply(activity, bot, data):
             ]
             reply = random.choice(responses)
         elif attendance > 65:
-            reply = "You should go to your classes if you don't want to burn a hole in your pocket. 😕"
+            responses = [ 
+                "You should go to your classes if you don't want to burn a hole in your pocket. 😕",
+                "Keep the condonation money ready."
+            ]
+            reply = random.choice(responses)
         else:
             reply = "I hope your okay with sitting amongst your juniors next year. 🤭"
         await bot.send_text_activity(activity, reply)

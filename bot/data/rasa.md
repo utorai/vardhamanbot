@@ -121,6 +121,8 @@
 
 ## intent:gpa
 - cgpa
+- GPA
+- CGPA
 - i wanna know my cgpa
 - i wanna know my gpa
 - tell me my cgpa

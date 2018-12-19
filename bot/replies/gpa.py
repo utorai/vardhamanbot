@@ -11,8 +11,13 @@ async def reply(activity, bot, data):
         rollno = str(result['rollno'])
         wak = str(result['wak'])
         scraper.authenticate(rollno, wak)
-        gpa = scraper.get_cgpa()
-        reply = "Your CGPA is " + str(gpa)
+        entities = data.get_entities()
+        if 'semester' in entities:
+            gpa = scraper.get_gpa(entities['semester'])
+            reply = "Your SGPA is " + str(gpa)
+        else:
+            gpa = scraper.get_cgpa()
+            reply = "Your CGPA is " + str(gpa)
         await bot.send_text_activity(activity, reply)
         if gpa > 9.5:
             reply = "Woah! Look at you going all out on your tests! Awesome! 💯"

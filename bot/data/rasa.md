@@ -5,7 +5,7 @@
 - tell me about this college
 - i wanna know about vardhaman
 - i wanna know about this college
-- i want toknow about this college
+- i want to know about this college
 - tell me about vardhaman
 - tell something about vardhaman
 - tell something about this college
@@ -130,6 +130,34 @@
 - whats my cgpa
 - what's my cgpa
 - whats my gpa
+- i wanna know my 2nd semester sgpa
+- I wanna know my 2nd semester gpa
+- tell me my 1st semester gpa
+- I want to know my 3rd semester sgpa
+- Tell me my 1st sem gpa
+- Tell me my 2nd sem gpa
+- Tell me my 3rd sem gpa
+- Tell me my 4th sem gpa
+- 1st sem gpa
+- 2nd sem gpa
+- 3rd sem gpa
+- 4th sem gpa
+- 1st semester gpa
+- 2nd semester gpa
+- 3rd semester gpa
+- 4th semester gpa
+- Tell me my 5th semester gpa
+- 1st semester sgpa
+- 4th semester sgpa pls
+- i wanna know my sgpa
+- whats my fifth semester sgpa
+- whats my first semester gpa
+- what's my first semester sgpa
+- tell me first semester gpa
+- tell me first semester sgpa
+- tell me my fourth semester sgpa
+- tell me third sem sgpa
+- tell me third semester sgpa
 
 ## intent:greet
 - hey

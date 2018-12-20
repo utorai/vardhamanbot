@@ -45,7 +45,6 @@
 - how much will my attendance decrease if i dont go tomorrow
 - i want to know the decrease in my attendance if i dont go tomorrow
 - what will be my attendance if i am absent tomorrow
-## synonym: am
 - i'm skipping college tomorrow so predict my attendance
 - i am going to be absent tomorrow so how much will be my attendance
 - i'm going to be absent tomorrow so what will be my attendance

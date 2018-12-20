@@ -49,7 +49,7 @@ async def reply(activity, bot, data):
             responses = [
                 "It's okay, you don't have to be a topper!  The only one you have to beat is the one you were last semester. Work harder this time! 😉",
                 "Don't get disheartened yet. There's a lot to look forward to, if you make sure you study harder. 😇",
-                "\"If at first you don't succeed, then skydiving isn't for you.\" - Steven Wright ☺"
+                "\"If at first you don't succeed, then skydiving isn't for you.\" - Steven Wright 😊"
             ]
         reply = random.choice(responses)
         await bot.send_text_activity(activity, reply)

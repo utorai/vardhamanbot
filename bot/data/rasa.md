@@ -14,6 +14,34 @@
 - What will my attendance be if I dont go tomorrow?
 - How much will I lose if I don't go tomorrow?
 - Should I go to college tomorrow?
+- I don't want to go to the college tomorrow
+- I want to skip college tomorrow
+- Don't wanna go
+- Howmuch attendance will I lose?
+- I want to skip college tomorrow
+- Should I come to the college tomorrow?
+- I dont feel like going to the college tomorrow
+- What will my attendance be if I go tomorrow?
+- I will not go tomorrow
+- I will not go to the college tomorrow
+- what will my attendance be?
+- what will be my attendance?
+- Do I have enough attendance?
+- is my attendance enough?
+- is enough attendance?
+- dont want to go to the college
+- dont want to go tomorrow
+- should I go tomorrow?
+- I should go tomorrow?
+- How much will I gain if I go tomorrow?
+- predict my attendance for tomorrow
+- attendance prediction
+- prediction of attendance
+- my attendance prediction
+- predict my attendance for tomorrow
+- my attendance prediction for tomorrow
+- dont feel like going to the college
+- dont feel like going tomorrow
 
 ## intent:appreciation
 - good

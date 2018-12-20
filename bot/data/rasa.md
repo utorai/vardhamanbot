@@ -5,15 +5,54 @@
 - tell me about this college
 - i wanna know about vardhaman
 - i wanna know about this college
-- i want to know about this college
+- i want toknow about this college
 - tell me about vardhaman
 - tell something about vardhaman
 - tell something about this college
+- tell me about your college?
 
 ## intent:attendance_prediction
 - What will my attendance be if I dont go tomorrow?
+- what will be my attendance if i dont go tomorrow?
+- how much will my attendance be if i don't go tomorrow
 - How much will I lose if I don't go tomorrow?
-- Should I go to college tomorrow?
+- how much will be my attendance if don't go tomorrow?
+- what will be my attendance if i take a leave tomorrow?
+- what will my attendance be if i take a leave tomorrow?
+- if i don't go tomorrow what will be my attendance?
+- if i dont go tomorrow how much will be my attendance?
+- if i take a leave what will be my attendance?
+- if i take a leave what will my attendance be?
+- tell me my attendance if i dont go tomorrow
+- tell me my attendance if i take leave tomorrow
+- i dont want to go tomorrow so what will be my attendance?
+- i wont be going tomorrow so what will be my attendance
+- predict my attendance if i dont go tomorrow
+- i dont want to go tomorrow so predict my attendance
+- what if i take a leave tomorrow?
+- what if i dont go to college tomorrow
+- i dont want to go tomorrow so predict my attendance
+- i dont want to go to college tomorrow so predict my attendance
+- i wanna know my attendance if i dont go tomorrow
+- i wanna know my attendance if take a leave tomorrow
+- my attendance if i dont go tomorrow
+- i am not going tomorrow so predict my attendance
+- what will be my attendance if i skip college tomorrow
+- i am going to skip college tomorrow so predict my attendance
+- i'm going to skip college tomorrow so what will be my attendance?
+- i am skipping college tomorrow so tell me my attendance
+- i am planning to skip college tomorrow so what will be my attendance?
+- how much will my attendance decrease if i dont go tomorrow
+- i want to know the decrease in my attendance if i dont go tomorrow
+- what will be my attendance if i am absent tomorrow
+## synonym: am
+-m
+-Mdance
+- i'm skipping college tomorrow so predict my attendance
+- i am going to be absent tomorrow so how much will be my attendance
+- i'm going to be absent tomorrow so what will be my attendance
+- i am going to be absent tomorrow so predict my attendance
+
 
 ## intent:appreciation
 - good
@@ -126,8 +165,6 @@
 
 ## intent:gpa
 - cgpa
-- GPA
-- CGPA
 - i wanna know my cgpa
 - i wanna know my gpa
 - tell me my cgpa
@@ -137,34 +174,6 @@
 - whats my cgpa
 - what's my cgpa
 - whats my gpa
-- i wanna know my 2nd semester sgpa
-- I wanna know my 2nd semester gpa
-- tell me my 1st semester gpa
-- I want to know my 3rd semester sgpa
-- Tell me my 1st sem gpa
-- Tell me my 2nd sem gpa
-- Tell me my 3rd sem gpa
-- Tell me my 4th sem gpa
-- 1st sem gpa
-- 2nd sem gpa
-- 3rd sem gpa
-- 4th sem gpa
-- 1st semester gpa
-- 2nd semester gpa
-- 3rd semester gpa
-- 4th semester gpa
-- Tell me my 5th semester gpa
-- 1st semester sgpa
-- 4th semester sgpa pls
-- i wanna know my sgpa
-- whats my fifth semester sgpa
-- whats my first semester gpa
-- what's my first semester sgpa
-- tell me first semester gpa
-- tell me first semester sgpa
-- tell me my fourth semester sgpa
-- tell me third sem sgpa
-- tell me third semester sgpa
 
 ## intent:greet
 - hey
@@ -578,6 +587,7 @@
 - sup bot?
 - sup?
 - what'sup
+- what else
 
 ## intent: love
 - I love you
@@ -656,3 +666,7 @@
 ## synonym: you
 -u
 -U
+
+## synonym: am
+-m
+-M

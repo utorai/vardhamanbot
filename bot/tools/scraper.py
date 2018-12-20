@@ -20,6 +20,24 @@ class Scraper:
                 #print(response.headers)
                 self.authenticated = True
     
+    def getPeriods(self):
+        if self.authenticated:
+            conducted = 0
+            attended = 0
+            response = self.session.get('http://studentscorner.vardhaman.org/student_attendance.php')
+            soup = BeautifulSoup(response.text, 'html.parser')
+            for element in soup.find_all('th'):
+                #print(element.decode_contents().strip())
+                if(element.decode_contents().strip()== "Conducted"):
+                    tr = element.parent
+                    for td in tr.find_all("th")[1:]:
+                        conducted += int(td.decode_contents().strip())
+                if(element.decode_contents().strip()== "Attended"):
+                    tr = element.parent
+                    for td in tr.find_all("th")[1:]:
+                            attended += int(td.decode_contents().strip())
+            return (conducted,attended)
+        
     def get_gpa(self, semester):
         if self.authenticated:
             semester_text = "Semester - " + roman.toRoman(semester)

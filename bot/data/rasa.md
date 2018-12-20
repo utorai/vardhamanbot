@@ -10,6 +10,11 @@
 - tell something about vardhaman
 - tell something about this college
 
+## intent:attendance_prediction
+- What will my attendance be if I dont go tomorrow?
+- How much will I lose if I don't go tomorrow?
+- Should I go to college tomorrow?
+
 ## intent:appreciation
 - good
 - cool

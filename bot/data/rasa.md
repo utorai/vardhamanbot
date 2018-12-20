@@ -46,8 +46,6 @@
 - i want to know the decrease in my attendance if i dont go tomorrow
 - what will be my attendance if i am absent tomorrow
 ## synonym: am
--m
--Mdance
 - i'm skipping college tomorrow so predict my attendance
 - i am going to be absent tomorrow so how much will be my attendance
 - i'm going to be absent tomorrow so what will be my attendance
@@ -164,13 +162,14 @@
 - whats the closing ranks of [cse](department)
 
 ## intent:gpa
- -cgpa
+- cgpa
 - GPA
 - CGPA
 - i wanna know my cgpa
 - i wanna know my gpa
 - tell me my cgpa
 - whats my cgpa
+- tell me my gpa
 - what's my cgpa
 - whats my gpa
 - i wanna know my 2nd semester sgpa

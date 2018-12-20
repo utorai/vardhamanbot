@@ -7,3 +7,10 @@ The utorai/botbase docker image has all necessary dependencies which is the base
 
 ## Contribute
 Though the core development and maintenance is done by Utor AI, we encourage contributions from everyone.
+ 
+To Contribute:
+1) Fork the repository to your github account
+2) Clone the repository
+3) The master branch is protected so after you make changes push the code to your forked repository.
+4) Create a pull request in the utorai/vardhamanbot repository and tag any of the members of Utor AI so that
+   your edits are reviewed and merged.

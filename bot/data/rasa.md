@@ -26,9 +26,6 @@
 - I will not go to the college tomorrow
 - what will my attendance be?
 - what will be my attendance?
-- Do I have enough attendance?
-- is my attendance enough?
-- is enough attendance?
 - dont want to go to the college
 - dont want to go tomorrow
 - should I go tomorrow?

@@ -629,7 +629,6 @@
 - K Bye
 - OK bye
 - hehe bye bye
-- 
 - Have a great weekend
 - see you
 - bye bye

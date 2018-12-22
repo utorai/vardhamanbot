@@ -10,6 +10,8 @@
 - tell something about vardhaman
 - tell something about this college
 - tell me about your college?
+- give information about your college
+- give information about college
 - How good is vardhaman?
 - tell me about your college though
 - bro tell me about vardhaman
@@ -193,6 +195,7 @@
 - whats the closing ranks of [cse](department)
 
 ## intent:gpa
+- gpa
 - cgpa
 - GPA
 - CGPA

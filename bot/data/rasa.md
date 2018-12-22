@@ -12,12 +12,45 @@
 - tell me about your college?
 - give information about your college
 - give information about college
+- How good is vardhaman?
+- tell me about your college though
+- bro tell me about vardhaman
+- Is vardhaman a good college?
+- i wanna know about vardhman
+- what can you tell me about vardhaman college of engineering?
+- please tell me about the college
 
 ## intent:attendance_prediction
 - What will my attendance be if I dont go tomorrow?
 - what will be my attendance if i dont go tomorrow?
 - how much will my attendance be if i don't go tomorrow
 - How much will I lose if I don't go tomorrow?
+- Should I go to college tomorrow?
+- I don't want to go to the college tomorrow
+- I want to skip college tomorrow
+- Don't wanna go
+- Howmuch attendance will I lose?
+- I want to skip college tomorrow
+- Should I come to the college tomorrow?
+- I dont feel like going to the college tomorrow
+- What will my attendance be if I go tomorrow?
+- I will not go tomorrow
+- I will not go to the college tomorrow
+- what will my attendance be?
+- what will be my attendance?
+- dont want to go to the college
+- dont want to go tomorrow
+- should I go tomorrow?
+- I should go tomorrow?
+- How much will I gain if I go tomorrow?
+- predict my attendance for tomorrow
+- attendance prediction
+- prediction of attendance
+- my attendance prediction
+- predict my attendance for tomorrow
+- my attendance prediction for tomorrow
+- dont feel like going to the college
+- dont feel like going tomorrow
 - how much will be my attendance if don't go tomorrow?
 - what will be my attendance if i take a leave tomorrow?
 - what will my attendance be if i take a leave tomorrow?
@@ -51,7 +84,6 @@
 - i am going to be absent tomorrow so how much will be my attendance
 - i'm going to be absent tomorrow so what will be my attendance
 - i am going to be absent tomorrow so predict my attendance
-
 
 ## intent:appreciation
 - good
@@ -164,14 +196,23 @@
 - whats the closing ranks of [cse](department)
 
 ## intent:gpa
+<<<<<<< HEAD
 - gpa
+=======
+- cgpa
+>>>>>>> 34d2dba56ed5c0e83de5fb8c70a6a92ed796f1f7
 - GPA
 - CGPA
 - i wanna know my cgpa
 - i wanna know my gpa
 - tell me my cgpa
 - whats my cgpa
+- tell me my gpa
 - what's my cgpa
+- CGPA?
+- what about my CGPA?
+- my CGPA?
+- what's my CGPA?
 - whats my gpa
 - i wanna know my 2nd semester sgpa
 - I wanna know my 2nd semester gpa
@@ -592,6 +633,9 @@
 - Excellent bye
 - Excellent bye-bye
 - Bye
+- K Bye
+- OK bye
+- hehe bye bye
 - Have a great weekend
 - see you
 - bye bye
@@ -610,6 +654,10 @@
 - wassup bro
 - whatsup my man
 - What's up?
+- Whats up dude?
+- what's up my man
+- What's up dude?
+- what's up dude
 - whatsup mate
 - whatsup bot
 - sup bot?
@@ -626,6 +674,8 @@
 - i like you
 - i kinda love you
 - i kinda like you
+- Hahah i kinda like you
+- Hahah I really like you
 - hey listen i love you
 - i love you for this
 - i kinda love you for this

@@ -96,8 +96,7 @@
 - love you
 - you are kind
 - great
-- You're cute!The current feature replies with just a greeting and not the name.
-
+- You're cute!
 - well done
 - great job
 - best bot

@@ -10,6 +10,13 @@
 - tell something about vardhaman
 - tell something about this college
 - tell me about your college?
+- How good is vardhaman?
+- tell me about your college though
+- bro tell me about vardhaman
+- Is vardhaman a good college?
+- i wanna know about vardhman
+- what can you tell me about vardhaman college of engineering?
+- please tell me about the college
 
 ## intent:attendance_prediction
 - What will my attendance be if I dont go tomorrow?
@@ -195,6 +202,10 @@
 - whats my cgpa
 - tell me my gpa
 - what's my cgpa
+- CGPA?
+- what about my CGPA?
+- my CGPA?
+- what's my CGPA?
 - whats my gpa
 - i wanna know my 2nd semester sgpa
 - I wanna know my 2nd semester gpa
@@ -615,6 +626,9 @@
 - Excellent bye
 - Excellent bye-bye
 - Bye
+- K Bye
+- OK bye
+- hehe bye bye
 - Have a great weekend
 - see you
 - bye bye
@@ -633,6 +647,10 @@
 - wassup bro
 - whatsup my man
 - What's up?
+- Whats up dude?
+- what's up my man
+- What's up dude?
+- what's up dude
 - whatsup mate
 - whatsup bot
 - sup bot?
@@ -649,6 +667,8 @@
 - i like you
 - i kinda love you
 - i kinda like you
+- Hahah i kinda like you
+- Hahah I really like you
 - hey listen i love you
 - i love you for this
 - i kinda love you for this

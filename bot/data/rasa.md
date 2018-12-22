@@ -10,6 +10,8 @@
 - tell something about vardhaman
 - tell something about this college
 - tell me about your college?
+- give information about your college
+- give information about college
 
 ## intent:attendance_prediction
 - What will my attendance be if I dont go tomorrow?
@@ -45,9 +47,6 @@
 - how much will my attendance decrease if i dont go tomorrow
 - i want to know the decrease in my attendance if i dont go tomorrow
 - what will be my attendance if i am absent tomorrow
-## synonym: am
--m
--Mdance
 - i'm skipping college tomorrow so predict my attendance
 - i am going to be absent tomorrow so how much will be my attendance
 - i'm going to be absent tomorrow so what will be my attendance
@@ -65,7 +64,8 @@
 - love you
 - you are kind
 - great
-- You're cute!
+- You're cute!The current feature replies with just a greeting and not the name.
+
 - well done
 - great job
 - best bot
@@ -164,7 +164,7 @@
 - whats the closing ranks of [cse](department)
 
 ## intent:gpa
- -cgpa
+- gpa
 - GPA
 - CGPA
 - i wanna know my cgpa

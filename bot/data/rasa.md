@@ -196,11 +196,8 @@
 - whats the closing ranks of [cse](department)
 
 ## intent:gpa
-<<<<<<< HEAD
 - gpa
-=======
 - cgpa
->>>>>>> 34d2dba56ed5c0e83de5fb8c70a6a92ed796f1f7
 - GPA
 - CGPA
 - i wanna know my cgpa

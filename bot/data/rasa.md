@@ -733,6 +733,24 @@
 - who are you?
 - who r u?
 
+## intent:timetable
+- i wanna know todays timetable
+- tell me monday's timetable
+- tell me todays timetable
+- what do i have today
+- what is my schedule
+- what is the timetable for today
+- what periods do i have on monday
+- what periods do i have today
+- whats my schedule
+- what's my schedule
+- whats my schedule for friday
+- what's my schedule today
+- what's my timetable
+- whats the schedule
+- what's the timetable for tomorrow
+- what's today's timetable
+
 ## synonym: are
 - r
 - R

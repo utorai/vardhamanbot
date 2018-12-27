@@ -15,12 +15,12 @@ bot = tools.server.Bot(app_id = app_config["appId"], app_password = app_config["
 engine = tools.nlu.Engine()
 
 @bot.start
-async def start(activity):
-    await replies.start.reply(activity, bot, {})
+def start(activity):
+    replies.start.reply(activity, bot, {})
 
 @bot.replies
-async def reply(activity):
-    await bot.send_typing_activity(activity)
+def reply(activity):
+    bot.send_typing_activity(activity)
     data = engine.parse(activity.text)
     intent = data.get_intent()
     entities = data.get_entities()
@@ -28,8 +28,8 @@ async def reply(activity):
     print(entities)
     try:
         intent_handler = getattr(replies, intent)
-        await intent_handler.reply(activity, bot, data)
+        intent_handler.reply(activity, bot, data)
     except (AttributeError, TypeError):
-        await replies.default.reply(activity, bot, data)
+        replies.default.reply(activity, bot, data)
 
 tools.server.start(bot)

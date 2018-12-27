@@ -2,7 +2,7 @@ import random
 from tools.scraper import Scraper
 from tinydb import TinyDB, Query
 
-async def reply(activity, bot, data):
+def reply(activity, bot, data):
     query = Query()
     db = TinyDB('./db.json')
     result = db.search(query.userid == activity.from_property.id)
@@ -14,7 +14,7 @@ async def reply(activity, bot, data):
         scraper.authenticate(rollno, wak)
         attendance = scraper.get_attendance()
         reply  = "Your attendance % is " + str(attendance)
-        await bot.send_text_activity(activity, reply)
+        bot.send_text_activity(activity, reply)
         if attendance == 100:
             responses = [
                 "Are you insane?! 😮 Take a break dude!",
@@ -52,7 +52,7 @@ async def reply(activity, bot, data):
                 "I hope your okay with sitting amongst your juniors next year. 🤭"
             ]
         reply = random.choice(responses)
-        await bot.send_text_activity(activity, reply)
+        bot.send_text_activity(activity, reply)
     else:
-        await bot.send_text_activity(activity, "Authentication failed. Please message your roll no. and web access key again.")
-        await bot.send_text_activity(activity, "Enter roll no. and web access key seperated by a single space.")
+        bot.send_text_activity(activity, "Authentication failed. Please message your roll no. and web access key again.")
+        bot.send_text_activity(activity, "Enter roll no. and web access key seperated by a single space.")

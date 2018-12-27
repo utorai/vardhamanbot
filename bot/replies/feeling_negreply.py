@@ -1,6 +1,6 @@
 import random
 
-async def reply(activity, bot, data):
+def reply(activity, bot, data):
     responses = [
         "Sorry to hear that, take help of someone who will make you feel better",
         "I wish you a speedy recovery",
@@ -9,4 +9,4 @@ async def reply(activity, bot, data):
         "That doesn't sound good, I hope you will be doing fine soon"
     ]
     response = random.choice(responses)
-    await bot.send_text_activity(activity, response)
+    bot.send_text_activity(activity, response)

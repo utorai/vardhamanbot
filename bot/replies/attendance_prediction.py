@@ -2,7 +2,7 @@ import random
 from tools.scraper import Scraper
 from tinydb import TinyDB, Query
 
-async def reply(activity, bot, data):
+def reply(activity, bot, data):
     query = Query()
     db = TinyDB('./db.json')
     result = db.search(query.userid == activity.from_property.id)
@@ -16,7 +16,7 @@ async def reply(activity, bot, data):
         percentageifpresent = round(((attended+7)/(conducted + 7) * 100), 2)
         percentageifabsent = round(((attended)/(conducted + 7) * 100), 2)
         response = "Your attendance will be %.2f if present, otherwise %.2f" % (percentageifpresent, percentageifabsent)
-        await bot.send_text_activity(activity, response)
+        bot.send_text_activity(activity, response)
         if percentageifabsent > 95:
             responses = [
                 "Go ahead and take a break, You deserve it. 🤗",
@@ -60,4 +60,4 @@ async def reply(activity, bot, data):
                 "Uhmm.. No way you can skip college right now. 😑"
             ]
         reply = random.choice(responses)
-        await bot.send_text_activity(activity, reply)
+        bot.send_text_activity(activity, reply)

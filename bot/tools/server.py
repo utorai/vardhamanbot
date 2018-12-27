@@ -14,7 +14,7 @@ class Bot:
         self.initial_activity_handler = None
         self.message_activity_handler = None
     
-    async def create_reply_activity(self, request_activity, activity_type, text = None, attachment = None):
+    def create_reply_activity(self, request_activity, activity_type, text = None, attachment = None):
         activity = Activity(type=activity_type, channel_id=request_activity.channel_id, conversation=request_activity.conversation, recipient=request_activity.from_property, from_property=request_activity.recipient, service_url=request_activity.service_url)
         if text:
             activity.text = text
@@ -22,27 +22,27 @@ class Bot:
             activity.attachments = [attachment]
         return activity
     
-    async def send_typing_activity(self, activity):
-        reply = await self.create_reply_activity(activity, ActivityTypes.typing)
+    def send_typing_activity(self, activity):
+        reply = self.create_reply_activity(activity, ActivityTypes.typing)
         connector = ConnectorClient(self.credentials, base_url=reply.service_url)
         return connector.conversations.send_to_conversation(reply.conversation.id, reply)
     
-    async def send_text_activity(self, activity, text):
-        reply = await self.create_reply_activity(activity, ActivityTypes.message, text)
+    def send_text_activity(self, activity, text):
+        reply = self.create_reply_activity(activity, ActivityTypes.message, text)
         connector = ConnectorClient(self.credentials, base_url=reply.service_url)
         return connector.conversations.send_to_conversation(reply.conversation.id, reply)
     
-    async def send_rich_activity(self, activity, text, attachment):
-        reply = await self.create_reply_activity(activity, ActivityTypes.message, text, attachment)
+    def send_rich_activity(self, activity, text, attachment):
+        reply = self.create_reply_activity(activity, ActivityTypes.message, text, attachment)
         connector = ConnectorClient(self.credentials, base_url=reply.service_url)
         return connector.conversations.send_to_conversation(reply.conversation.id, reply)
     
-    async def handle_initial_activity(self, activity):
+    def handle_initial_activity(self, activity):
         if activity.members_added[0].id != activity.recipient.id:
-            await self.initial_activity_handler(activity)
+            self.initial_activity_handler(activity)
     
-    async def handle_message_activity(self, activity):
-        await self.message_activity_handler(activity)
+    def handle_message_activity(self, activity):
+        self.message_activity_handler(activity)
     
     async def authenticate(self, request, activity):
         credential_provider = SimpleCredentialProvider(self.id, self.password)
@@ -65,10 +65,10 @@ async def handle_all_activity(request):
     if not await bot.authenticate(request, activity):
         return request.Response(code=500)
     if activity.type == ActivityTypes.conversation_update.value:
-        await bot.handle_initial_activity(activity)
+        bot.handle_initial_activity(activity)
         return request.Response(code=202)
     elif activity.type == ActivityTypes.message.value:
-        await bot.handle_message_activity(activity)
+        bot.handle_message_activity(activity)
         return request.Response(code=200)
     else:
         return request.Response(code=404)

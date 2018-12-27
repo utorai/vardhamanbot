@@ -12,6 +12,7 @@ except FileNotFoundError:
     app_config["appPassword"] = ""
 
 bot = tools.server.Bot(app_id = app_config["appId"], app_password = app_config["appPassword"])
+engine = tools.nlu.Engine()
 
 @bot.start
 async def start(activity):
@@ -21,7 +22,6 @@ async def start(activity):
 @bot.replies
 async def reply(activity):
     await bot.send_typing_activity(activity)
-    engine = tools.nlu.Engine()
     data = engine.parse(activity.text)
     intent = data.get_intent()
     entities = data.get_entities()

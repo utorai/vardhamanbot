@@ -1,7 +1,7 @@
 import tools.server
 import tools.nlu
-import importlib
 import json
+import replies
 
 try:
     with open('./vardhamanbot/bot/config/app.json') as app_config_file:
@@ -16,8 +16,7 @@ engine = tools.nlu.Engine()
 
 @bot.start
 async def start(activity):
-    module = importlib.import_module("replies.start")
-    await module.reply(activity, bot, {})
+    await replies.start.reply(activity, bot, {})
 
 @bot.replies
 async def reply(activity):
@@ -28,10 +27,9 @@ async def reply(activity):
     print(intent)
     print(entities)
     try:
-        module = importlib.import_module("replies." + intent)
-        await module.reply(activity, bot, data)
+        intent_handler = getattr(replies, intent)
+        await intent_handler.reply(activity, bot, data)
     except (AttributeError, TypeError):
-        module = importlib.import_module("replies.default")
-        await module.reply(activity, bot, data)
+        await replies.default.reply(activity, bot, data)
 
 tools.server.start(bot)

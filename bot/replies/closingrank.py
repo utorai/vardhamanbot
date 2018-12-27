@@ -1,4 +1,4 @@
-async def reply(activity, bot, data):
+def reply(activity, bot, data):
     entities = data.get_entities()
     department  = str(entities['department']).lower()
     reply  = f"The Closing rank for General Category of {department} is "
@@ -14,4 +14,4 @@ async def reply(activity, bot, data):
         reply += "10635"
     elif department == 'civil':
         reply += "12835"
-    await bot.send_text_activity(activity, reply)
+    bot.send_text_activity(activity, reply)

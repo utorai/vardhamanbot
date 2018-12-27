@@ -1,6 +1,6 @@
 import random
 
-async def reply(activity, bot, data):
+def reply(activity, bot, data):
     responses = [
         "Sure you can, this is my github repository : https://github.com/utorai/vardhamanbot",
         "You are more than welcome to contribute, here's the repo https://github.com/utorai/vardhamanbot",
@@ -9,4 +9,4 @@ async def reply(activity, bot, data):
         "https://github.com/utorai/vardhamanbot Commit Push Pull Repeat!"
     ]
     response = random.choice(responses)
-    await bot.send_text_activity(activity, response)
+    bot.send_text_activity(activity, response)
